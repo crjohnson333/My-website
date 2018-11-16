@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Helvetica:400,700');
+
+body {
+  background-color: #a1cbd3;
+}
+
+#container{
+  width: 800px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #5286d9;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Helvetica', sans-serif;
+}
+aside {
+  width: 40%;
+  height: 500px;
+  background-color: #7d9ed1;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font: "Helvetica";
+  font-size: 50px;
+}
+
+article {
+  width: 60%;
+  height: 300px;
+  background-color: #63758e;
+  float: right;
+  text-align: center;
+  padding-top: 269px;
+  font-family: sans-serif;
+  font: "Helvetica";
+  font-size: 25px;
+}
+
+.myImage {
+  background-image: url("IMG_4200.JPG");
+  float: left;
+  height: 10px;
+  width: 50%;
+}
+
+main {
+  background-color: #28e2e2;
+  width: 70%;
+  height: 500px;
+  float: right;
+}
+
+footer {
+  background-color: #3c5a88;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  position: fixed;
+  font-family: sans-serif;
+  font: "Helvetica";
+  text-align: center
+}
+
+#page-contain {
+  background-color: #73G56Y;
+    background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/2016927/rs_600x600-161027125713-600-Oprah-Winfrey-Garden-Vegetables-RM-102716.jpg?fit=around|700:700&crop=700:700;center,top&output-quality=90);
+    background-size: cover;
+  width: 50%;
+  border-width: 5px;
+  border-color: #b12525;
+  border-style: dashed;
+  padding: 40px;
+  margin: auto;
+}
+.box { width: 80%;
+  border: 2px;
+  border-bottom-left-radius: #cc24cc;
+  margin: auto;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.7);
+    font-family: 'Montserrat''Krub', sans-serif;
+}
+.bg image {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://d2z1w4aiblvrwu.cloudfront.net/ad/wD85/o-thats-good-garden-joy-featuring-oprah-winfrey-large-1.jpg)
+  background-size: contain;
+}
+
+.gi{
+  width: 40px;
+  height: 200px;
+  margin: 10px;
+  background-color: red;
+  display: inline-block;
+}
+#circle {
+  border-radius: 50%
+}
