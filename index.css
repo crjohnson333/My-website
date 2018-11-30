@@ -18,10 +18,11 @@ header {
 }
 
 /* Add a black background color to the top navigation bar */
-.topnav {
+/*.topnav {
     overflow: hidden;
     background-color: #ffe6e6;
 }
+*/
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
