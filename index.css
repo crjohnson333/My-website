@@ -2,72 +2,174 @@
 @import url('https://fonts.googleapis.com/css?family=Helvetica:400,700');
 
 body {
-  background-color: #a1cbd3;
-}
-
-#container{
-  width: 800px;
-  margin: 0 auto;
-}
-header {
-  width: 100%;
-  height: 100px;
-  background-color: #5286d9;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: #ffe6e6;
   font-family: 'Helvetica', sans-serif;
 }
-aside {
-  width: 40%;
-  height: 500px;
-  background-color: #7d9ed1;
-  float: left;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-family: sans-serif;
-  font: "Helvetica";
-  font-size: 50px;
+
+header {
+  width: 100%;
+  height: 135px;
+  background-color: #ffe6e6;
+  text-align: left;
+  font-size: 125px;
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
 }
 
-article {
-  width: 60%;
-  height: 300px;
-  background-color: #63758e;
-  float: right;
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #ffe6e6;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    position: relative;
+}
+
+#search{
+  display: inline;
+  font-size: 20px;
+  text-align: right;
+  right: 100px;
+  padding-top: 40px;
+  position: absolute;
+}
+
+p{
+padding-top: 200px;
+text-align: center;
+font-size: 25px;
+}
+
+#shop{
+  font-size: 100px;
   text-align: center;
-  padding-top: 269px;
-  font-family: sans-serif;
-  font: "Helvetica";
+  padding-top: 0px;
+  color: white;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 25px;
   font-size: 25px;
+  font-style: italic;
+  padding-top: 125px;
+}
+
+figure img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+figcaption{
+  display: inline-block;
+  text-align: center;
+}
+
+/* aside {
+  width: 50%;
+  min-height: 50%;
+  background-color: #ffe6e6;
+  padding-bottom: 100px;
+  text-align: left;
+  font-size: 25px;
+  float: left;
+}
+
+
+article {
+  width: 50%;
+  min-height: 50%;
+  background-color: #ffe6e6;
+  text-align: center;
+  padding-top: 700px;
+  padding-bottom: 269px;
+  font-size: 25px;
+  float: right;
+}
+*/
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/*.myImage {
+  background-image: ("rebecca.png");
+  float: left;
+  height: 300px;
+  width: 60%;
+  margin-bottom: 100px;
 }
 
 .myImage {
-  background-image: url("IMG_4200.JPG");
-  float: left;
-  height: 10px;
-  width: 50%;
+  background-image: ("morgan.png");
+  float: right;
+  height: 300px;
+  padding-top: 0px;
+  width: 60%;
 }
 
-main {
-  background-color: #28e2e2;
-  width: 70%;
-  height: 500px;
-  float: right;
+.myImage {
+  background-image: ("solyana.png");
+  float: left;
+  height: 300px;
+  padding-top: 500px;
+  width: 60%;
+  margin-top: 500px;
 }
+*/
 
 footer {
-  background-color: #3c5a88;
+  background-color: #ffe6e6;
   width: 100%;
-  height: 35px;
+  height: 25px;
   bottom: 0;
-  position: fixed;
   font-family: sans-serif;
+  font-size: 20px;
   font: "Helvetica";
-  text-align: center
+  text-align: center; justify;
+  word-spacing: 150px;
+  position: fixed;
 }
+/*
 
+/*
 #page-contain {
   background-color: #73G56Y;
     background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/2016927/rs_600x600-161027125713-600-Oprah-Winfrey-Garden-Vegetables-RM-102716.jpg?fit=around|700:700&crop=700:700;center,top&output-quality=90);
@@ -105,3 +207,4 @@ footer {
 #circle {
   border-radius: 50%
 }
+*/
