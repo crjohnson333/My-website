@@ -25,6 +25,7 @@ header {
 */
 
 /* Style the search box inside the navigation bar */
+/*
 .topnav input[type=text] {
     float: right;
     padding: 6px;
@@ -34,6 +35,7 @@ header {
     font-size: 17px;
     position: relative;
 }
+*/
 
 #search{
   display: inline;
@@ -71,6 +73,7 @@ main {
   font-size: 25px;
   font-style: italic;
   padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 figure img{
