@@ -26,6 +26,7 @@ header {
     border: none;
     cursor: pointer;
     margin-right: 25px;
+    display: inline-block;
 }
 
 /* Dropdown button on hover & focus */
