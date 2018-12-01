@@ -17,48 +17,69 @@ header {
   padding-top: 10px;
 }
 
-/* Add a black background color to the top navigation bar */
-/*.topnav {
-    overflow: hidden;
-    background-color: #ffe6e6;
-}
-*/
-
-/* Style the search box inside the navigation bar */
-/*
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
+/* Dropdown Button */
+.dropbtn {
+    background-color: #e2c7cd;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
     border: none;
-    margin-top: 0px;
-    margin-right: 16px;
-    font-size: 17px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #c4acb1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
-}
-*/
-
-#search{
-  display: inline;
-  font-size: 20px;
-  text-align: right;
-  right: 100px;
-  padding-top: 40px;
-  position: absolute;
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
 }
 
-p{
-padding-top: 200px;
-text-align: center;
-font-size: 25px;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-#shop{
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #e5dadc}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #c4acb1;}
+
+p {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#shop {
   font-size: 100px;
   text-align: center;
   padding-top: 0px;
   color: white;
 }
-
 
 main {
   display: flex;
@@ -76,7 +97,7 @@ main {
   padding-bottom: 350px;
 }
 
-figure img{
+figure img {
   display: inline-block;
   vertical-align: middle;
 }
@@ -85,79 +106,30 @@ figure img{
   align-self: flex-end;
 }
 
-figcaption{
+figcaption {
   display: inline-block;
   text-align: center;
 }
 
-/* aside {
-  width: 50%;
-  min-height: 50%;
-  background-color: #ffe6e6;
-  padding-bottom: 100px;
-  text-align: left;
-  font-size: 25px;
-  float: left;
-}
-
-
-article {
-  width: 50%;
-  min-height: 50%;
-  background-color: #ffe6e6;
-  text-align: center;
-  padding-top: 700px;
-  padding-bottom: 269px;
-  font-size: 25px;
-  float: right;
-}
-*/
-
 /* unvisited link */
 a:link {
-    color: black;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-    color: black;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-    color: white;
+  color: white;
 }
 
 /* selected link */
 a:active {
-    color: black;
+  color: black;
 }
-
-/*.myImage {
-  background-image: ("rebecca.png");
-  float: left;
-  height: 300px;
-  width: 60%;
-  margin-bottom: 100px;
-}
-
-.myImage {
-  background-image: ("morgan.png");
-  float: right;
-  height: 300px;
-  padding-top: 0px;
-  width: 60%;
-}
-
-.myImage {
-  background-image: ("solyana.png");
-  float: left;
-  height: 300px;
-  padding-top: 500px;
-  width: 60%;
-  margin-top: 500px;
-}
-*/
 
 footer {
   background-color: #ffe6e6;
@@ -167,10 +139,12 @@ footer {
   font-family: sans-serif;
   font-size: 20px;
   font: "Helvetica";
-  text-align: center; justify;
+  text-align: center;
+  justify;
   word-spacing: 150px;
   position: fixed;
 }
+
 /*
 
 /*
