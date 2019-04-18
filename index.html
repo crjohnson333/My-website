@@ -2,56 +2,38 @@
 <html>
 
 <head>
-  <title>cobie-ray johnson.</title>
+  <title>velp.</title>
   <link rel="stylesheet" type="text/css" href="index.css">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
+  <div id = "app">
   <header>
-    <i> <strong> crj. </strong> </i>
+    <i> <strong> velp. </strong> </i>
   </header>
-
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">other styles?</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="https://www.etsy.com/shop/littlerootsvintage?ref=search_shop_redirect&section_id=20864462">shop denim.</a>
-    <a href="https://www.etsy.com/shop/littlerootsvintage?ref=search_shop_redirect&section_id=20871525">shop sweaters.</a>
-    <a href="https://www.etsy.com/shop/littlerootsvintage?ref=search_shop_redirect&section_id=22738908">shop shoes.</a>
-  </div>
-</div>
 
   <section>
     <p>
-      <i>funfreshflirty.
-        jeweleryforhimherthem.</i>
+      <i>mother nature thanks you</i>
     </p>
-    <p id="shop"> SCROLL 2 SHOP. </p>
-  </section>
 
-  <main>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <figure class="left">
-      <figcaption>the morgan.<br>$29.</figcaption>
-      <img src="images/morgan.png" vspcae=0px hspace=25px alt="metal abstract face earring" />
-    </figure>
-
-    <figure class="right">
-      <img src="images/solyana.png" vspace=300px hspace=25px alt="metal abstract face earring" />
-      <figcaption>the solyana. <br> $27.</figcaption>
-    </figure>
-
-    <figure class="left">
-      <figcaption>the rebecca. <br> $27.</figcaption>
-      <img src="images/rebecca.png" vspace=0px hspace=25px alt="metal abstract face earring" />
-    </figure>
-
-  </main>
+<form class="example">
+  <input type="text" placeholder="veg near me..." v-model='lookup'name="search">
+  <button v-if="lookup" v-on:click="get"> <i class="fa fa-search"></i></button>
+</form>
 
   <footer>
-    <i><u><a href="https://www.etsy.com/shop/littlerootsvintage?ref=seller-platform-mcnav">shop.</a></u></i>
-    <i><u><a href="https://www.instagram.com/cobie.ray/">follow.</a></u></i>
+    <i><u><a href="https://minimalistbaker.com">cook.</a></u></i>
+    <i><u><a href="https://www.instagram.com/nycveganeats/">follow.</a></u></i>
     <i><u><a href="https://www.google.com/search?q=oprah+winfrey+with+garden+vegetables&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2v6Pc8vXeAhVjS98KHYbeBvEQ_AUIDigB&biw=1440&bih=668">explore.</a></u></i>
   </footer>
+</div>
+<script src = "app.js"> </script>
+
 </body>
 
 </html>
