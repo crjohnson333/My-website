@@ -1,5 +1,5 @@
-{
-    "businesses": [
+
+    var businesses = [
         {
             "id": "IJg3TdXz8IzKTfcspmr8MQ",
             "alias": "seasoned-vegan-new-york-2",
@@ -945,12 +945,4 @@
             "display_phone": "(718) 545-1888",
             "distance": 6340.80531521774
         }
-    ],
-    "total": 107,
-    "region": {
-        "center": {
-            "longitude": -73.9661519,
-            "latitude": 40.8091014
-        }
-    }
-}
+    ]
