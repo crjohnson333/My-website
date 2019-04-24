@@ -3,9 +3,12 @@
 
 <head>
   <title>velp.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" type="text/css" href="index.css">
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="data.js"></script>
 </head>
 
 <body>
@@ -15,16 +18,20 @@
   </header>
 
   <section>
-    <p>
+    <h1>
       <i>mother nature thanks you</i>
-    </p>
+    </h1>
+  </section>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="button">
+  <button class=btn v-for="category in categories" v-on:click="lookup = category"> {{category}} </button>
+</div>
 
-<form class="example">
-  <input type="text" placeholder="veg near me..." v-model='lookup'name="search">
-  <button v-if="lookup" v-on:click="get"> <i class="fa fa-search"></i></button>
-</form>
+<div class="results">
+  <section v-for="place in placesByCat" >
+    <p> <i>{{place.name}}</i> </p>
+  </section>
+</div>
 
   <footer>
     <i><u><a href="https://minimalistbaker.com">cook.</a></u></i>
@@ -33,7 +40,5 @@
   </footer>
 </div>
 <script src = "app.js"> </script>
-
 </body>
-
 </html>
