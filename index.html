@@ -23,8 +23,8 @@
     </h1>
   </section>
 
-<div class="button">
-  <button class=btn v-for="category in categories" v-on:click="lookup = category"> {{category}} </button>
+<div>
+  <button class="button" v-for="category in categories" v-on:click="lookup = category"> {{category}} </button>
 </div>
 
 <div class="results">

@@ -31,25 +31,15 @@ h1 {
   font-size: 30px;
 }
 
-#shop {
-  font-size: 100px;
-  text-align: center;
-  padding-top: 0px;
-  color: white;
-}
-
-.btn:hover {
+.button:hover {
     background-color: #81a179;
   }
 
-.btn {
-  background-color: #c9fcbd
-  font-size: 25px;
-  font-family: 'Helvetica', sans-serif;
-}
-
 .button {
-  position: relative;
+  padding: 10px;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #c9fcbd
+  font-size: 20px;
 }
 
 * {
